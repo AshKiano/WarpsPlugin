@@ -1,0 +1,15 @@
+name: WarpsPlugin
+version: '${project.version}'
+main: com.ashkiano.warpsplugin.WarpsPlugin
+api-version: '1.16'
+authors: [ AshKiano ]
+commands:
+  warp:
+    description: Teleport to a saved warp
+    usage: /<command> <warpName>
+  setwarp:
+    description: Set a warp at your current location
+    usage: /<command> <warpName>
+  delwarp:
+    description: Delete an existing warp
+    usage: /<command> <warpName>
